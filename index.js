@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
 // استبدل هذا التوكن الخاص بالتوكن الخاص بربط البوت
-const TOKEN = 'YOUR_BOT_TOKEN'; 
+const TOKEN = 'MTUxNDI2NzE3NzAzOTk1NDAxMQ.Gqe472.gYPbQpQCjEQt2hC2m5tnsKAk7uAZkiMoX8Vw8gMTUxNDI2NzE3NzAzOTk1NDAxMQ.Gqe472.gYPbQpQCjEQt2hC2m5tnsKAk7uAZkiMoX8Vw8g'; 
 
 // عند تشغيل البوت
 client.once('ready', () => {
